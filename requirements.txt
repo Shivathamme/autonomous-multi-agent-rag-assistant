@@ -1,12 +1,29 @@
+streamlit==1.35.0
 
-streamlit
-langchain
-langgraph
-langchain-community
-langchain-huggingface
-langchain-chroma
+# LangChain ecosystem (stable combo)
+langchain==0.2.16
+langchain-community==0.2.16
+langchain-core==0.2.43
+langchain-huggingface==0.0.3
+langchain-chroma==0.1.4
+
+# Vector DB
 chromadb==0.4.24
-duckduckgo-search
-python-dotenv
-sentence-transformers
+
+# Embeddings / NLP
+sentence-transformers==2.7.0
+
+# Web search
+duckduckgo-search==5.3.0
+
+# LLM (Groq)
+groq==0.9.0
+
+# Utilities
+python-dotenv==1.0.1
+
+# 🔥 CRITICAL FIXES (DO NOT CHANGE)
 protobuf==3.20.3
+opentelemetry-api==1.25.0
+opentelemetry-sdk==1.25.0
+opentelemetry-exporter-otlp==1.25.0
