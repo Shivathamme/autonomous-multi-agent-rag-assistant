@@ -1,5 +1,15 @@
+# Environment
 .env
-venv/
+
+# Database
+db/
+
+# Uploaded files
+data/uploads/
+
+# Python cache
 __pycache__/
-logs/
 *.pyc
+
+# OS files
+.DS_Store
